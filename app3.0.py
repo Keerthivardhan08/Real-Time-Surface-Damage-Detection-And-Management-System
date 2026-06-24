@@ -33,8 +33,8 @@ os.makedirs("reports", exist_ok=True)
 os.makedirs("images", exist_ok=True)
 # ---------------------------------------------
 
-SENDER_EMAIL = "pvsnkeerthivardhan08@gmail.com"
-APP_PASSWORD = "your_app_password"
+SENDER_EMAIL = st.secrets["SENDER_EMAIL"]
+APP_PASSWORD = st.secrets["APP_PASSWORD"]
 AUTHORITY_EMAIL = "pvsnkeerthivardhan43@gmail.com"
 
 # Initialize Session State for Authentication
